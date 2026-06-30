@@ -637,6 +637,23 @@ footer {
     width: 100%;
 }
 
+.footer-credit {
+    font-size: 10px;
+    color: var(--text-gray);
+    margin-top: 0.25rem;
+    letter-spacing: 0.5px;
+}
+
+.footer-credit a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.3s var(--ease-smooth);
+}
+
+.footer-credit a:hover {
+    color: var(--text-light);
+}
+
 /* Page Content */
 .page-content {
     max-width: min(1200px, 90vw);

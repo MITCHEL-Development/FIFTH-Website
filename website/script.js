@@ -43,10 +43,10 @@ function applyConfig() {
 }
 
 const heroImages = [
-    `${basePath}/img/Homepage_1.JPG`,
-    `${basePath}/img/Homepage_2.JPG`,
-    `${basePath}/img/Homepage_3.JPG`,
-    `${basePath}/img/Homepage_4.JPG`,
+    `${basePath}/img/Homepage_1.jpg`,
+    `${basePath}/img/Homepage_2.jpg`,
+    `${basePath}/img/Homepage_3.jpg`,
+    `${basePath}/img/Homepage_4.jpg`,
 ];
 
 let currentImageIndex = 0;
@@ -336,7 +336,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Fix photo divider background
     const photoDividerBio = document.getElementById('photo-divider-bio');
     if (photoDividerBio) {
-        photoDividerBio.style.backgroundImage = `url('${basePath}/img/Biography_achtergrond.JPG')`;
+        photoDividerBio.style.backgroundImage = `url('${basePath}/img/Biography_achtergrond.jpg')`;
     }
     
     loadReleases();

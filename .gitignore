@@ -22,3 +22,5 @@
 # /*/*/*
 # negeer alle bestanden behalve die in de hoofdmap en submappen:
 # /*/*/*/*
+.vercel
+.env*
